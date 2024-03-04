@@ -4,8 +4,10 @@ const users_routes = require('./routes/user-routes')
 
 port = 5000
 
+app.use(express.json()) 
+
 app.get('/',(req,res)=>{
-    res.json({"name":"Mahir"})
+    res.json("Hello")
 })
 
 app.use('/api/users',users_routes)

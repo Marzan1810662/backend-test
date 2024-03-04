@@ -24,4 +24,22 @@ module.exports.users = [{
     age: 25,
     gender: "Female",
     university: "Independentant University, Bangladesh"
+},
+{
+    id: 4,
+    name: "Sunny",
+    firstName: "Sunny",
+    lastName: "Rainy",
+    age: 2500,
+    gender: "No",
+    university: "Independentant University, Bangladesh"
+},
+{
+    id: 5,
+    name: "Sonia",
+    firstName: "Sonia",
+    lastName: "Haldar",
+    age: 30,
+    gender: "Female",
+    university: "Chittagong University"
 }]
